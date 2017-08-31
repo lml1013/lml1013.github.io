@@ -130,9 +130,9 @@ EvilCircle.prototype.setControls = function(){
       _this.x -= _this.velX;
     } else if (e.keyCode === 39) {
       _this.x += _this.velX;
-    } else if (e.keyCode === 38) {
-      _this.y -= _this.velY;
     } else if (e.keyCode === 40) {
+      _this.y -= _this.velY;
+    } else if (e.keyCode === 38) {
       _this.y += _this.velY;
     }
   }
